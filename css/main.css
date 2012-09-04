@@ -1,0 +1,30 @@
+/*-- Header Editing --*/
+
+h1{
+   font-family: Skranji, cursive;
+   font-size:48px;
+   opacity: 1.0;
+   color:red;
+   text-shadow:3px 4px 4px #111;
+}
+
+h2{
+   font-family: Skranji, cursive;
+   text-decoration:underline;
+}
+
+/*-- Navigation --*/
+
+nav{
+    font-family: Skranji, cursive;
+}
+
+/*-- Body Paragraphs --*/
+
+section span{
+       font-style:italic;
+       font-weight:bold;
+} 
+
+
+
