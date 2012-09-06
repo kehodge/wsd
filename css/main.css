@@ -24,7 +24,29 @@ nav{
 section span{
        font-style:italic;
        font-weight:bold;
+}
+
+/*-- Link Styling --*/
+
+a:link{
+       color:red;
+}
+
+a:visited{
+         color:blue;
+}
+
+a:hover{
+        color:green;
 } 
+
+a:active{
+         color:silver;
+}
+
+aside ol li{
+      list-style-type:upper-roman;
+}  
 
 
 
