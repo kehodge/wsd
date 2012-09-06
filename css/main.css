@@ -1,29 +1,72 @@
 /*-- Header Editing --*/
 
 h1{
-   font-family: Skranji, cursive;
-   font-size:48px;
+   
+   font-size:55px;
    opacity: 1.0;
-   color:red;
-   text-shadow:3px 4px 4px #111;
+   color:#f0f0ff;
+   text-shadow:7px 5px 5px red;
+   
+   
 }
 
 h2{
-   font-family: Skranji, cursive;
+   
    text-decoration:underline;
+   text-shadow:3px 4px 4px red;
+   padding-top:20px;
+   color:#f0f0ff;
 }
+
+h1, h2{
+       font-family: Skranji, cursive;
+       text-align:center;
+}
+
+
 
 /*-- Navigation --*/
 
-nav{
-    font-family: Skranji, cursive;
+nav ul{
+    width:780px;
+    margin: 0 auto;
+    background: #000;
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+    
+}
+
+nav ul li{
+          width:195px;
+          float:left;
+          background:#000;
+          
+}
+
+nav ul a{
+          text-decoration: none;
+          display: block;
+          height:30px;
+          line-height: 30px;
+          text-align: center;     
 }
 
 /*-- Body Paragraphs --*/
 
+body{
+     width:790px;
+     margin:0 auto;
+     font-family: 'Oranienbaum', serif;
+}
+
 section span{
        font-style:italic;
        font-weight:bold;
+}
+
+p{
+  color:#828a8f;
 }
 
 /*-- Link Styling --*/
@@ -37,15 +80,34 @@ a:visited{
 }
 
 a:hover{
-        color:green;
+        color:#f0f0ff;
+        text-shadow:7px 5px 5px white;
 } 
 
 a:active{
-         color:silver;
+         color:green;
+}
+
+
+/*-- Background --*/
+
+body{
+     background-image: url("../images/deadpool_logo.jpg");
+}
+
+/*-- Footer Editing --*/
+
+footer{
+       color:#828a8f;
+}
+
+aside{
+      color:#828a8f;
 }
 
 aside ol li{
       list-style-type:upper-roman;
+     
 }  
 
 
