@@ -45,8 +45,7 @@ nav ul{
 nav ul li{
    width:195px;
    float:left;
-   background:#000;
-          
+   background:#000;       
 }
 
 nav ul a{
@@ -122,6 +121,26 @@ body{
 footer{
    color:#828a8f;
 }
+
+footer a:link{
+   color:yellow;
+   
+}
+
+footer a:visited{
+   color:blue;
+}
+
+footer a:hover{
+   color:#f0f0ff;
+   text-shadow:7px 5px 5px white;
+} 
+
+footer a:active{
+   color:green;
+}
+
+/*-- Sample Gallery Editing--*/
 
 div ul{
        list-style-type: none;
