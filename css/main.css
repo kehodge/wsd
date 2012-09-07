@@ -3,7 +3,7 @@
 h1{
    
    font-size:55px;
-   opacity: 1.0;
+   opacity:0.9;
    color:#f0f0ff;
    text-shadow:7px 5px 5px red;
    
@@ -14,13 +14,18 @@ h2{
    
    text-decoration:underline;
    text-shadow:3px 4px 4px red;
-   padding-top:20px;
+   padding-top:30px;
    color:#f0f0ff;
 }
 
 h1, h2{
-       font-family: Skranji, cursive;
-       text-align:center;
+   font-family: Skranji, cursive;
+   text-align:center;
+}
+
+img.thumbs{
+   display:block;
+   margin:0 auto;
 }
 
 
@@ -28,87 +33,128 @@ h1, h2{
 /*-- Navigation --*/
 
 nav ul{
-    width:780px;
-    margin: 0 auto;
-    background: #000;
-    list-style-type: none;
-    padding:0;
-    overflow:hidden;
+   width:780px;
+   margin: 0 auto;
+   background: #000;
+   list-style-type: none;
+   padding:0;
+   overflow:hidden;
     
 }
 
 nav ul li{
-          width:195px;
-          float:left;
-          background:#000;
+   width:195px;
+   float:left;
+   background:#000;
           
 }
 
 nav ul a{
-          text-decoration: none;
-          display: block;
-          height:30px;
-          line-height: 30px;
-          text-align: center;     
+   text-decoration: none;
+   display: block;
+   height:30px;
+   line-height: 30px;
+   text-align: center;     
 }
 
-/*-- Body Paragraphs --*/
+/*-- Body styling --*/
 
 body{
-     width:790px;
-     margin:0 auto;
-     font-family: 'Oranienbaum', serif;
+   width:790px;
+   margin:0 auto;
+   font-family: 'Oranienbaum', serif;
 }
 
 section span{
-       font-style:italic;
-       font-weight:bold;
+   font-style:italic;
+   font-weight:bold;
 }
 
 p{
-  color:#828a8f;
+   color:#828a8f;
 }
+
+aside{
+   color:#828a8f;
+}
+
+aside ul li{
+   list-style-type:disc;
+}
+
+aside ul{
+   -moz-column-count:3;
+   -moz-column-gap:35px;
+}  
+
+
 
 /*-- Link Styling --*/
 
 a:link{
-       color:red;
+   color:red;
 }
 
 a:visited{
-         color:blue;
+   color:blue;
 }
 
 a:hover{
-        color:#f0f0ff;
-        text-shadow:7px 5px 5px white;
+   color:#f0f0ff;
+   text-shadow:7px 5px 5px white;
 } 
 
 a:active{
-         color:green;
+   color:green;
 }
 
 
 /*-- Background --*/
 
 body{
-     background-image: url("../images/deadpool_logo.jpg");
+   background-image: url("../images/deadpool_logo.jpg");
+     
 }
+
 
 /*-- Footer Editing --*/
 
 footer{
-       color:#828a8f;
+   color:#828a8f;
 }
 
-aside{
-      color:#828a8f;
+div ul{
+       list-style-type: none;
+       margin:20px auto;
+       width:780px;
+       overflow:hidden;
+       padding:5px;
 }
 
-aside ol li{
-      list-style-type:upper-roman;
-     
-}  
+div ul li{
+          float:left;
+          margin-left:80px;
+          margin-top:10px;
+}
+
+div ul a{
+         border:5px solid #fff;
+         display:block;
+         height: 260px;
+         width:260px;
+}
+
+div a:visited{
+                border-color:navy;
+}
+
+div a:hover{
+                border-color:#f00;
+}    
+
+div a:active{
+                border-color:gray;
+}
 
 
 
