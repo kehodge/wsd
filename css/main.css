@@ -2,7 +2,7 @@
 
 h1{
    
-   font-size:55px;
+   font-size:3.4375em; /*-- 55px --*/
    opacity:0.9;
    color:#f0f0ff;
    text-shadow:7px 5px 5px red;
@@ -11,10 +11,10 @@ h1{
 }
 
 h2{
-   
+   font-size:1.5625em;/*-- 25px --*/
    text-decoration:underline;
    text-shadow:3px 4px 4px red;
-   padding-top:30px;
+   padding-top:3.79746835443%;/*30px*/
    color:#f0f0ff;
 }
 
@@ -33,17 +33,18 @@ img.thumbs{
 /*-- Navigation --*/
 
 nav ul{
-   width:780px;
+   width:87.777777777778%;/*790px*/
    margin: 0 auto;
    background: #000;
    list-style-type: none;
    padding:0;
    overflow:hidden;
+   margin:0 auto;
     
 }
 
 nav ul li{
-   width:195px;
+   width:24.683544303797%;/*195px*/
    float:left;
    background:#000;       
 }
@@ -59,9 +60,11 @@ nav ul a{
 /*-- Body styling --*/
 
 body{
-   width:790px;
+   width:100%;/*900px*/
    margin:0 auto;
    font-family: 'Oranienbaum', serif;
+   font-size:100%;
+   max-width:960px;
 }
 
 section span{
@@ -71,6 +74,9 @@ section span{
 
 p{
    color:#828a8f;
+   width:87.777777777778%;/*790px*/
+   margin:0 auto;
+   text-align:center;
 }
 
 aside{
@@ -143,37 +149,39 @@ footer a:active{
 /*-- Sample Gallery Editing--*/
 
 div ul{
-       list-style-type: none;
-       margin:20px auto;
-       width:780px;
-       overflow:hidden;
-       padding:5px;
+   list-style-type: none;
+   margin:20px auto;
+   width:780px;
+   overflow:hidden;
+   padding:5px;
 }
 
 div ul li{
-          float:left;
-          margin-left:80px;
-          margin-top:10px;
+   float:left;
+   margin-left:80px;
+   margin-top:10px;
 }
 
 div ul a{
-         border:5px solid #fff;
-         display:block;
-         height: 260px;
-         width:260px;
+   border:5px solid #fff;
+   display:block;
+   height: 260px;
+   width:260px;
 }
 
 div a:visited{
-                border-color:navy;
+   border-color:navy;
 }
 
 div a:hover{
-                border-color:#f00;
+   border-color:#f00;
 }    
 
 div a:active{
-                border-color:gray;
+   border-color:gray;
 }
+
+
 
 
 
