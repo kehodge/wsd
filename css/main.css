@@ -26,6 +26,8 @@ h1, h2{
 img.thumbs{
    display:block;
    margin:0 auto;
+   width:55.555555555556%;/*500px/900px*/
+   max-width:100%;
 }
 
 
@@ -102,11 +104,13 @@ a:link{
 
 a:visited{
    color:blue;
+   
 }
 
 a:hover{
    color:#f0f0ff;
    text-shadow:7px 5px 5px white;
+   text-decoration:underline;
 } 
 
 a:active{
@@ -126,6 +130,7 @@ body{
 
 footer{
    color:#828a8f;
+   text-align:center;
 }
 
 footer a:link{
@@ -150,23 +155,25 @@ footer a:active{
 
 div ul{
    list-style-type: none;
-   margin:20px auto;
-   width:780px;
+   margin:2.222222222222% auto;/*20px*/
+   width:87.777777777778%;/*790px/900px*/
    overflow:hidden;
-   padding:5px;
+   padding:0.641025641026%;/*5px/780px*/
 }
 
 div ul li{
    float:left;
-   margin-left:80px;
-   margin-top:10px;
+   margin-left:8.888888888889%;/*80px/900px*/
+   margin-top:1.111111111111%;/*10px/900px*/
+   
 }
 
 div ul a{
    border:5px solid #fff;
    display:block;
-   height: 260px;
+   height:260px;
    width:260px;
+   
 }
 
 div a:visited{
@@ -180,6 +187,20 @@ div a:hover{
 div a:active{
    border-color:gray;
 }
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
 
 
 
