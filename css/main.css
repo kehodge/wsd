@@ -92,6 +92,17 @@ aside ul li{
 aside ul{
    -moz-column-count:3;
    -moz-column-gap:35px;
+}
+
+#join{
+   font-size:3.4375em;
+   text-shadow:3px 4px 4px red;
+   text-align:center;
+   padding-bottom:3.79746835443%;/*30px*/
+}
+
+#join a{
+   color:white;
 }  
 
 
@@ -174,6 +185,7 @@ div ul a{
    height:260px;
    width:260px;
    
+   
 }
 
 div a:visited{
@@ -187,6 +199,115 @@ div a:hover{
 div a:active{
    border-color:gray;
 }
+
+
+/*=Media Queries
+==============================================*/
+
+@media screen and (min-width: 768px) and (max-width:959px){
+body{
+   background-image:none;
+   background-color:red;
+}
+
+p, aside{
+   color:black;
+}
+   
+h1{
+   font-size:2.8125em;/*45px*/
+   opacity:0.9;
+   text-shadow:7px 5px 5px black;
+}
+
+h2, #join a{
+   text-decoration:underline;
+   text-shadow:3px 4px 4px black;
+   padding-top:3.79746835443%;/*30px*/
+}
+
+#join a:hover{
+   color:blue;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width:767px){
+body{
+   background-image:none;
+   background-color:white;
+}
+   
+h1{
+   font-size:2.5em;/*40px*/
+   color:black;
+}
+
+h2{
+   color:black;
+}
+
+#join a{
+   color:black;
+}
+
+#join a:hover{
+   color:blue;
+   text-shadow:7px 5px 5px red;
+}
+   
+footer a:link{
+   color:orange;
+}
+
+footer a:hover{
+   color:blue;
+   text-shadow:7px 5px 5px red;
+}    
+
+}
+
+@media only screen and (max-width:479px){
+body{
+   background-image:none;
+   background-color:black;
+   max-width:479px;
+     }
+h1{
+   font-size:2.1875em;/*35px*/
+}
+
+h2{
+   font-size:1.25em;/*20px*/  
+}
+
+nav ul li{
+   background:gray;  
+}
+
+p, footer{
+   font-size:0.875em;/*14px*/
+}
+
+aside ul{
+   font-size:0.875em;/*14px*/
+}
+
+#gallery{
+   display:none;
+}
+
+#spimages{
+   display:none;
+}
+
+footer{
+   padding-top:5.063291139241%;/*40px*/
+}
+
+    
+}
+
 
 
 
