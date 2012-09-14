@@ -263,6 +263,10 @@ footer a:link{
 footer a:hover{
    color:blue;
    text-shadow:7px 5px 5px red;
+}
+
+p, footer{
+   font-size:0.9375em;/*15px*/
 }    
 
 }
