@@ -291,6 +291,7 @@ p, footer{
 
 aside ul{
    font-size:0.875em;/*14px*/
+   -moz-column-count:2;
 }
 
 #gallery{
@@ -304,6 +305,7 @@ aside ul{
 footer{
    padding-top:5.063291139241%;/*40px*/
 }
+
 
     
 }
